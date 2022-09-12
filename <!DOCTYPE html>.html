@@ -122,13 +122,49 @@
 
         <h2>Formulario</h2>
         <form action="#" method="post">
-            <label for="NOME">Nome Completo</label>
-            <input type="text" name="NOME" id="NOME">
-            <br>
-            <label for="E-MAIL">E-mail</label>
-            <input type="text" name="NOME" id="E-MAIL">
 
+            <label for="NOME">Nome Completo</label>
+            <input type="text" name="NOME" id="NOME" class="" minlength="2"
+            required value="Seu nome completo"> 
+            <br><br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="Senha">Senha</label>
+            <input type="password" name="password" id="telefone">
+            <br><br>
+            <label for="cor">Cor Preferida</label>
+            <input type="checkbox" name="cor" id="preto">Preto
+            <input type="checkbox" name="cor" id="preto">Rosa
+            <input type="checkbox" name="cor" id="preto">amarelo
+            <br>
+            <br>
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="sexo" value="masc"> Masculino
+            <input type="radio" name="sexo" value="fem"> Feminino
+            <input type="radio" name="sexo" value="ND"> Prefiro não declarar
+            <br>
+            <label for="numero">Número</label>
+            <input type="number" name="numero" placeholder="Apenas números">
+            <br><br>
+            <label for="">Envie seu Arquivo</label>
+            <input type="file" name="arquivo" multiple>
+            <br>
+            <label for="">Cores</label>
+            <input type="color" name="cores" value="#EA3939">
+            <br><br>
+            <select name="estados" required>
+             <option value="">Selecione</option>
+             <option value="SC">Santa Catarina</option>
+             <option value="RJ">Rio de Janeiro</option>
+             <option value="RS">Rio Grande do Sul</option>
+            </select>        
+            <label for="">Data</label>
             
+            <br><br>
+            <input type="submit" value="enviar">
+            <button type="submit">ENVIAR</button>
+
         </form>
          
 </body>
