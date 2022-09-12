@@ -7,8 +7,192 @@
     <title>Currículo</title>
 
     <h1>Cadastro de currículo</h1>
-    
+
+    <fieldset>
+        <legend> Dados Pessoais</legend>
+
+        <label for="NOME">Nome Completo</label>
+        <input type="text" name="NOME" id="NOME" class="" minlength="2"
+        required value="Nome Completo">
+        <label for="cpf">CPF</label>
+        <input type="cpf" name="cpf" id="email" required value="___.___.___-__">
+        <br>
+        <label for="rg">R.G.</label>
+        <input type="rg" name="rg" id="rg" required value="">
+        <label for="date"> Data de Nascimento</label>
+        <input type="date" name="date" id="date" required value="">
+
+    </fieldset>
+    <fieldset>
+        <legend>Dados de Contato</legend>
+        <label for="Celular">Celular</label>
+        <input type="number" name="Celular" id="Celular" class="" minlength="10"
+        required value="(DDD)_____-____">
         
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required value="seuemail@email.com">
+        <br>
+        <label for="LinkedIn">LinkedIn</label>
+        <input type="text" name="LinkedIn" id="LinkedIn" required value="@LinkedIn">
+        
+        <label for="Instagram">Instagram</label>
+        <input type="text" name="Instagram" id="Instagram" required value="@Instagram">
+        <br>
+        <label for="Portfolio">Portfólio</label>
+        <input type="url" name="Portfolio" id="Portfolio" required value="">
+    </fieldset>
+    <fieldset>
+        <legend>Dados de Endereço</legend>
+        <label for="Logradouro">Logradouro</label>
+        <input type="text" name="Logradouro" id="Logradouro" required value="">
+        <label for="numero">Número</label>
+        <input type="number" name="numero casa" id="numero casa" required value="">
+        <label for="complemento">Complemento</label>
+        <input type="text" name="complemento">
+        <br>
+        <label for="Cidade">Cidade</label>
+        <input type="Cidade" name="Cidade" required value="">
+        <label for="Estado">Estado</label>
+        <select id="estado" name="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Experiências Profissionais</legend>
+        <label for="Empresa">Empresa</label>
+        <input type="text">
+
+        <label for="telefone empresa">Telefone</label>
+        <input type="number" name="Telefone" id="Telefone" class="" minlength="10"
+        required value="" >
+        <br>
+        <label for="Cidade">Cidade</label>
+        <input type="Cidade" name="Cidade" required value="">
+        
+        <label for="Estado">Estado</label>
+        <select id="estado" name="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
+        <br>
+        <label for="date"> Data de Admissão</label>
+        <input type="date" name="date" id="date" required value="">
+        
+        <label for="date"> Data de Saída</label>
+        <input type="date" name="date" id="date" required value="">
+        <br>
+        <label for="funcao">Função</label>
+        <input type="text">
+    
+        <label for="salario">Salário</label>
+        <input type="number">
+        <br>
+        <br>
+        <label for="button"></label>
+        <input type="button" value="Adicionar mais experiências">
+    </fieldset>
+    <fieldset>
+        <legend>Formação</legend>
+        <label for="Curso">Curso</label>
+        <input type="text">
+        
+        <label for="Instituicao">Instituição</label>
+        <input type="text">
+        <br>
+        <label for="situacao">Situação</label>
+        <select id="situacao" name="situacao">
+            <option value="">Cursando</option>
+            <option value="">Concluído</option>
+            <option value="">Trancado</option>
+        </select>
+        <br>
+        <label for="date"> Data de Início</label>
+        <input type="date" name="date" id="date">
+        
+        <label for="date"> Data de Término</label>
+        <input type="date" name="date" id="date">
+        <label for="upload">Envio do Certificado</label>
+        <input type="file" name="arquivo" multiple>
+    </fieldset>
+    <fieldset>
+        <legend>Cursos</legend>
+        <label for="Curso">Curso</label>
+        <input type="text">
+        
+        <label for="Instituicao">Instituição</label>
+        <input type="text">
+        <br>
+        <label for="date"> Data de Início</label>
+        <input type="date" name="date" id="date">
+        
+        <label for="date"> Data de Término</label>
+        <input type="date" name="date" id="date">
+        <label for="upload">Envio do Certificado</label>
+        <input type="file" name="arquivo" multiple>
+    </fieldset>
+    <fieldset>
+        <legend>Informações Adicionais</legend>
+        <label for="">Escreva aqui um breve resumo sobre você:</label>
+        <br>
+        <textarea name=""  cols="50" rows="5"></textarea>
+        <br>
+        <label for="">O que te motivou a se candidatar para essa vaga?</label>
+        <br>
+       <textarea name="" id="" cols="50" rows="5"></textarea>
+    </fieldset>
 </head>
 
 <body>
